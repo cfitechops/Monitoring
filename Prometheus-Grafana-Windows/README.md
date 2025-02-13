@@ -54,10 +54,25 @@ mot de passe = admin
 - Étiquette personnalisée
 
 ```sh
-{{cibler}}
+{{target}}
 ```
 
-## Liens utiles
+![network](/Prometheus-Grafana-Windows/Windows/01.png)
+
+![network](/Prometheus-Grafana-Windows/Windows/02.png)
+
+![network](/Prometheus-Grafana-Windows/Windows/03.png)
+
+![network](/Prometheus-Grafana-Windows/Windows/04.png)
+
+![network](/Prometheus-Grafana-Windows/Windows/05.png)
+
+```sh
+C:\Users\Administrator> calc.exe
+C:\Users\Administrator> charmap.exe
+```
+
+#### Liens utiles
 
 [Exportateur Windows](https://github.com/prometheus-community/windows_exporter)
 

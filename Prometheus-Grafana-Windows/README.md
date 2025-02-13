@@ -8,10 +8,6 @@
 
   - Il doit être installé sur chaque hôte que vous souhaitez surveiller. Il est préférable d'effectuer cette opération à l'aide d'une installation scriptée ou d'une distribution via Active Directory si vous devez le faire à grande échelle.
 
-#### Cloner le dépôt
-
-Clonez ce référentiel et modifiez les fichiers dans le répertoire prometheus selon le cas avec les détails d'hôte et de port corrects.
-
 #### Démarrer le conteneur Prometheus à l'aide de Docker
 
 ```sh

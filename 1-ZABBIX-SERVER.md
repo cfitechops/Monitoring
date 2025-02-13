@@ -76,11 +76,11 @@ create database zabbix character set utf8mb4 collate utf8mb4_bin;
 - Créez un utilisateur MySQL pour Zabbix
 
 ```sh
-create user zabbix@localhost identified by 'cfitech63@@';
+create user zabbix@localhost identified by 'cfitech63@';
 ```
 
 - L’utilisateur s’appelle zabbix.
-- Son mot de passe est cfitech63@@. (Attention ! Utilisez un mot de passe plus sécurisé en production.)
+- Son mot de passe est cfitech63@. (Attention ! Utilisez un mot de passe plus sécurisé en production.)
 
 - Donnez tous les droits à cet utilisateur sur la base zabbix
 
@@ -109,7 +109,7 @@ sudo zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql --default-ch
 - Décompresse le fichier SQL (server.sql.gz) contenant la structure et les données initiales nécessaires à Zabbix.
 - Exécute ce fichier dans la base zabbix, en utilisant l’utilisateur zabbix.
 
-- **Note**: Vous devrez entrer le mot de passe de l’utilisateur zabbix (dans ce cas, cfitech63@@).
+- **Note**: Vous devrez entrer le mot de passe de l’utilisateur zabbix (dans ce cas, cfitech63@).
 
 #### Désactiver l’option temporaire dans MySQL
 
@@ -130,10 +130,10 @@ mysql> quit;
 sudo nano /etc/zabbix/zabbix_server.conf
 ```
 
-- Trouvez la ligne contenant DBPassword= et ajoutez le mot de passe que vous avez défini pour l’utilisateur zabbix (ici, cfitech63@@)
+- Trouvez la ligne contenant DBPassword= et ajoutez le mot de passe que vous avez défini pour l’utilisateur zabbix (ici, cfitech63@)
 
 ```sh
-DBPassword=cfitech63@@
+DBPassword=cfitech63@
 ```
 
 Enregistrez et fermez le fichier (Ctrl+O, puis Ctrl+X avec Nano).

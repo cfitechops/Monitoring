@@ -70,7 +70,7 @@ C:\Users\Administrator> charmap.exe
 
 #### Liens utiles
 
-[Exportateur Windows](https://github.com/prometheus-community/windows_exporter)
+[Exportateur Windows](https://github.com/prometheus-community/windows_exporter/releases)
 
 [Installation de Prometheus à l'aide de Docker](https://prometheus.io/docs/prometheus/latest/installation/#using-docker)
 

@@ -74,7 +74,7 @@ mot de passe = admin
 {{target}}
 ```
 
-![network](/Network-Prometheus-Grafana/Network/01.png)
+![network](/)
 
 ![network](/Network-Prometheus-Grafana/Network/02.png)
 

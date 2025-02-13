@@ -72,13 +72,13 @@ sudo apt-get install -y adduser libfontconfig1 musl
 - Téléchargement du paquet Grafana (Alternative)
 
 ```sh
-wget -P ~/ https://dl.grafana.com/oss/release/grafana_11.3.0_amd64.deb
+wget -P ~/ https://dl.grafana.com/oss/release/grafana_11.5.1_amd64.deb
 ```
 
 - Installation du paquet Grafana (Alternative)
 
 ```sh
-sudo dpkg -i ~/grafana_11.3.0_amd64.deb
+sudo dpkg -i ~/grafana_11.5.1_amd64.deb
 ```
 
 - Rechargement du daemon Systemd

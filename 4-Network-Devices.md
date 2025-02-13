@@ -57,35 +57,24 @@ FpingLocation=/usr/bin/fping
 sudo systemctl restart zabbix-server
 ```
 
+![network](/Zabbix-Network/01.png)
+
+![network](/Zabbix-Network/02.png)
+
+![network](/Zabbix-Network/03.png)
+
+![network](/Zabbix-Network/04.png)
+
+![network](/Zabbix-Network/05.png)
+
+![network](/Zabbix-Network/06.png)
+
+![network](/Zabbix-Network/07.png)
+
+![network](/Zabbix-Network/08.png)
+
 - Si les modifications apportées dans Zabbix (par exemple, l'ajout d'hôtes ou de modèles) ne prennent pas effet immédiatement, vous pouvez recharger le cache de configuration sans redémarrer les services
 
 ```sh
 zabbix_server -R config_cache_reload
 ```
-
-#### Étapes de l'interface Web
-
-- Aller à: Configuration > Hosts > Create Host.
-- Définir les détails de l'hôte
-
-  - Host name: Entrez un nom pour votre appareil (par exemple, « Router01 »).
-  - Groups: Attribuez-le à un groupe (par exemple, « Network Devices »).
-  - Agent interfaces: Entrez l'adresse IP de l'appareil que vous souhaitez surveiller.
-
-- Joindre un modèle de ping ICMP:
-
-  - Accédez à Templates.
-  - Cliquez sur Sélectionner , Template Module ICMP Ping.
-  - Cliquez sur Add pour le joindre.
-
-- Enregistrez vos modifications en cliquant sur Ajouter
-
-#### 5. Vérifier la surveillance
-
-- Après avoir ajouté un hôte, vérifiez que la surveillance fonctionne correctement
-  - Aller à : .Monitoring > Latest Data
-  - Sélectionnez votre hôte dans la liste.
-  - Vérifiez les paramètres tels que :
-    - ICMP ping: Disponibilité de l'appareil.
-    - ICMP loss: Pourcentage de paquets perdus.
-    - ICMP response time: Temps de réponse en millisecondes.

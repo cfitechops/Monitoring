@@ -2,9 +2,9 @@
 
 - Surveillance de base à l'aide d'ICMP / Ping pour les périphériques réseau
 
-#### Cloner le dépôt
+#### Instructions
 
-- Clonez ce référentiel et modifiez les fichiers dans les répertoires ping_exporter et prometheus selon le cas avec les détails d'hôte et de port corrects.
+- L'exportateur Ping peut être trouvé [ici.](https://github.com/czerwonk/ping_exporter)
 
 #### Installer l'exportateur ping à l'aide de Docker (exécuté en tant que démon)
 

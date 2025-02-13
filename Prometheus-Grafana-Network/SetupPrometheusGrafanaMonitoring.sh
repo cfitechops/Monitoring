@@ -1,5 +1,4 @@
 #!/bin/bash
-# Executez ces commandes après le clonage et la modification des fichiers - même commandes dans README.md.
 
 sudo apt-get update
 sudo apt-get install docker.io

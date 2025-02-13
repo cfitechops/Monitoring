@@ -74,23 +74,23 @@ mot de passe = admin
 {{target}}
 ```
 
-![network](/)
+![network](/Prometheus-Grafana-Network/Network/01.png)
 
-![network](/Network-Prometheus-Grafana/Network/02.png)
+![network](/Prometheus-Grafana-Network/Network/02.png)
 
-![network](/Network-Prometheus-Grafana/Network/03.png)
+![network](/Prometheus-Grafana-Network/Network/03.png)
 
-![network](/Network-Prometheus-Grafana/Network/04.png)
+![network](/Prometheus-Grafana-Network/Network/04.png)
 
-![network](/Network-Prometheus-Grafana/Network/05.png)
+![network](/Prometheus-Grafana-Network/Network/05.png)
 
-![network](/Network-Prometheus-Grafana/Network/06.png)
+![network](/Prometheus-Grafana-Network/Network/06.png)
 
-![network](/Network-Prometheus-Grafana/Network/07.png)
+![network](/Prometheus-Grafana-Network/Network/07.png)
 
-![network](/Network-Prometheus-Grafana/Network/08.png)
+![network](/Prometheus-Grafana-Network/Network/08.png)
 
-![network](/Network-Prometheus-Grafana/Network/09.png)
+![network](/Prometheus-Grafana-Network/Network/09.png)
 
 ### Liens utiles
 

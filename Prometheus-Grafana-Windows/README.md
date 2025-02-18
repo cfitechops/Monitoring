@@ -4,7 +4,7 @@
 
 #### Instructions
 
-- L'exportateur Windows est disponible [ici.](https://github.com/prometheus-community/windows_exporter)
+- L'exportateur Windows est disponible [ici.](https://github.com/prometheus-community/windows_exporter/releases)
 
   - Il doit être installé sur chaque hôte que vous souhaitez surveiller. Il est préférable d'effectuer cette opération à l'aide d'une installation scriptée ou d'une distribution via Active Directory si vous devez le faire à grande échelle.
 

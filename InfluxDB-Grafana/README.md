@@ -3,7 +3,7 @@
 ```sh
 barry@Thierno:~/Monitoring/InfluxDB-Grafana/influxdb$ nano docker-compose.yml
 ```
- 
+
 ```sh
 version: "3.8"
 services:

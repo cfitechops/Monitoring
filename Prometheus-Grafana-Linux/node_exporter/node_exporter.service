@@ -1,23 +1,12 @@
-    [Unit]
+[Unit]
+Description=Prometheus Node Exporter
+After=network.target
 
-    Description=Prometheus Node Exporter
+[Service]
+User=node_exporter  
+Group=node_exporter
+ExecStart=/usr/local/bin/node_exporter
+Restart=always
 
-    After=network.target
-
-
-
-    [Service]
-
-    User=node_exporter  
-
-    Group=node_exporter
-
-    ExecStart=/usr/local/bin/node_exporter
-
-    Restart=always
-
-
-
-    [Install]
-
-    WantedBy=multi-user.target
+[Install]
+WantedBy=multi-user.target

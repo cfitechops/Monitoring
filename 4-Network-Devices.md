@@ -57,21 +57,21 @@ FpingLocation=/usr/bin/fping
 sudo systemctl restart zabbix-server
 ```
 
-![network](/Zabbix-Network/01.png)
+![network](/assets/Zabbix-Network/01.png)
 
-![network](/Zabbix-Network/02.png)
+![network](/assets/Zabbix-Network/02.png)
 
-![network](/Zabbix-Network/03.png)
+![network](/assets/Zabbix-Network/03.png)
 
-![network](/Zabbix-Network/04.png)
+![network](/assets/Zabbix-Network/04.png)
 
-![network](/Zabbix-Network/05.png)
+![network](/assets/Zabbix-Network/05.png)
 
-![network](/Zabbix-Network/06.png)
+![network](/assets/Zabbix-Network/06.png)
 
-![network](/Zabbix-Network/07.png)
+![network](/assets/Zabbix-Network/07.png)
 
-![network](/Zabbix-Network/08.png)
+![network](/assets/Zabbix-Network/08.png)
 
 - Si les modifications apportées dans Zabbix (par exemple, l'ajout d'hôtes ou de modèles) ne prennent pas effet immédiatement, vous pouvez recharger le cache de configuration sans redémarrer les services
 

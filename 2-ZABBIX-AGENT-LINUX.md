@@ -64,4 +64,4 @@ sudo ufw allow 10050
 sudo ufw reload
 ```
 
-![linux](/zabbix-linux/01.png)
+![linux](/assets/zabbix-linux/01.png)

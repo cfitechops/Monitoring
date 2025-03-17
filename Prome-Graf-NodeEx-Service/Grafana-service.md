@@ -108,6 +108,8 @@ sudo systemctl status grafana-server
 
 # 2 - Installation et configuration de Prometheus
 
+- Prometheus est un outils de monitoring de systèmes, serveurs, applications et d'autres infrastructures IT. Prometheus a été developpé par **SoundCloud** en 2012. Il est conçu pour surveiller, suire les événements et gérer les alertes, en s'appuyant sur une base de données.
+
 - Télécharge l'archive de Prometheus depuis le dépôt GitHub dans le répertoire personnel
 
 ```sh
